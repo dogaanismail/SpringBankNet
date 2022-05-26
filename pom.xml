@@ -4,20 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.springbank</groupId>
+    <groupId>org.springbank</groupId>
     <artifactId>user-management</artifactId>
     <version>1.0</version>
-
-    <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
-    </properties>
     <packaging>pom</packaging>
 
     <modules>
-        <module>user.core</module>
-        <module>user.cmd.api</module>
-        <module>user.query.api</module>
+        <module>user-management/user.core</module>
+        <module>user-management/user.cmd.api</module>
+        <module>user-management/user.query.api</module>
     </modules>
-
 </project>
